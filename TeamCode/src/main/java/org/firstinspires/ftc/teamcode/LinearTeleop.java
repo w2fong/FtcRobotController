@@ -81,7 +81,8 @@ public class LinearTeleop extends LinearOpMode {
             isPressed = gamepad1.right_trigger > 0.05;
             if(isPressed) {
                 //servoOne.setPosition(0.55);
-                servoOne.setPosition(60);
+                //servoOne.setPosition(60);
+                servoOne.setPosition(70);
             }
             /*
             if(gamepad1.a) {
